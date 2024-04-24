@@ -1,0 +1,20 @@
+main ul li {
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    justify-content: center;
+    gap: 1rem;
+}
+
+.fav-button {
+    background-color: #ff4136;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 0;
+    cursor: pointer;
+}
+
+main ul li button:hover {
+    transition: ease-in-out 0.1s;
+    opacity: 0.8;
+}
