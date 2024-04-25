@@ -12,7 +12,7 @@
     const li = document.createElement('li')
     const link = document.createElement('a')
     link.text = nome
-    link.setAttribute('href', `${document.URL.split('/')[0]}/municipios/index.html?uf=${uf}`)
+    link.setAttribute('href', `./municipios/index.html?uf=${uf}`)
     li.appendChild(link)
     list.appendChild(li)
   }
